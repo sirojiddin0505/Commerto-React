@@ -5,7 +5,7 @@ import hero1 from "../Hero/images/hero1.svg"
 
 const Hero = () => {
   return (
-    <hero>
+    <div className='hero'>
         <div className="container hero__container">
             <h1 className="hero__title">What our client say</h1>
         <div className="hero__box">
@@ -19,7 +19,7 @@ const Hero = () => {
             </div>
         </div>
         </div>
-    </hero>
+    </div>
 )
 }
 
